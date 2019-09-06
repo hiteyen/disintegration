@@ -1,3 +1,3 @@
 ### 效果图
 
-![](D:\录制视频\弹指间.gif)
+![](https://github.com/hiteyen/disintegration/blob/master/%E5%BC%B9%E6%8C%87%E9%97%B4.gif)
