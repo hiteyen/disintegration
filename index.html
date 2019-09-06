@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>沙化</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+    <style type="text/css">
+    .item {
+        margin: 40px;
+    }
+
+
+    .disintegrated {
+        position: relative;
+    }
+
+    .disintegrated>*:not(.disintegration-container) {
+        visibility: hidden;
+    }
+
+    .disintegration-container {
+        position: absolute;
+        left: 0;
+        top: 0;
+    }
+
+    .disintegration-container canvas {
+        position: absolute;
+        left: 0;
+        top: 0;
+        opacity: 1;
+        transition: transform 1s, opacity 1s;
+        transform: rotate(0deg) translate(0px, 0px),
+            rotate(0deg);
+    }
+    </style>
+</head>
+
+<body>
+    <h3 id="btn" style="cursor: pointer;">我是灭霸，弹指灰飞</h3>
+    <div id="content" class="item">
+        <p>钢铁侠小萝卜头</p>
+        <p>蜘蛛侠妖精</p>
+        <p>美国队长迪迦</p>
+        <p>贞节牌坊黑寡妇</p>
+    </div>
+    <script type="text/javascript" src="./html2canvas.min.js"></script>
+    <script type="text/javascript" src="./snap.js"></script>
+</body>
+
+</html>
